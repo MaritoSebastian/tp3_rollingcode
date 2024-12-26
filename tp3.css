@@ -1,0 +1,29 @@
+#centrado {
+    
+  background: linear-gradient(to right, blue, orange);
+  text-align: center;
+
+  margin: 0; /* Elimina los márgenes */
+}
+#centrado ul {
+  display: inline-block; /* Hace que la lista sea un elemento en línea bloqueado */
+  text-align: left; /* Alinea el texto de los elementos de la lista a la izquierda */
+  padding: 0; /* Opcional: Eliminar el relleno */
+}
+
+.tabla_dados {
+
+  width: 50px;
+  margin-top: 20px;
+}
+.tabla_dados, .tabla_dados th, .tabla_dados td {
+  border: 1px solid lightseagreen;
+}
+.tabla_dados th, .tabla_dados td {
+  padding: 8px;
+  text-align: center;
+}
+.tabla_dados th {
+  background-color:grey;
+}
+
